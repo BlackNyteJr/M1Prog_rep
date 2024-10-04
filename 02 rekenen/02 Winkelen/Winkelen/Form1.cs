@@ -20,7 +20,11 @@ namespace Winkelen
         private void calculateTotal_Click(object sender, EventArgs e)
         {
             //1) reken hier de totaal prijs uit
-            double total = 0;
+            double total = (sponge * spongePrice) +
+                (elden * eldenPrice) +
+                (spiderman * spidermanPrice) +
+                (ps5s * ps5Price) +
+                (controllers * controllerPrice) ;
 
             totalPrice.Text = total.ToString();
         }
