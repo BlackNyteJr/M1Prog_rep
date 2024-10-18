@@ -14,7 +14,7 @@ namespace MarioArray
 		
 		//1) vervang de ??? door het type wat daar nodig is
         // > hint: kijk wat er in hoort te zitten, dat kan je zien!
-        ??? otherMarios = new ???[] {
+        ??? otherMarios = new otherMarios[] {
             new Point(100,100)
 			//2) zet hier nog 4 andere marios neer
 			
