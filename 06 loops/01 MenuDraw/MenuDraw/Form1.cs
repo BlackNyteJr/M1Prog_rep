@@ -15,7 +15,8 @@ namespace MenuDraw
                 new GameMenuItem("Continue"),
                 new GameMenuItem("New Game"),
                 new GameMenuItem("Load game"),
-                new GameMenuItem("Options")
+                new GameMenuItem("Options"),
+                new GameMenuItem("Help"),
             };
 
             for (int i = 0; i < menu.Length; i++)

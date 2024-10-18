@@ -26,21 +26,24 @@ namespace MenuDraw
             base.OnPaint(e);
             e.Graphics.Clear(Color.Black);
             //1) maak hier een for loop, die over inventory loopt
-            
+            for (int i = 0; i < inventory.Length; i++)
             {
-
-                //2) haal hier het item op [i] op, zie MenuDraw als je het even niet weet
-                Equipment item = ;
-                if ()//3) test hier of item.type GELIJK is aan EquipmentType.Sword
                 {
-                    e.Graphics.DrawImage(item.image, 0, 0);
+
+                    //2) haal hier het item op [i] op, zie MenuDraw als je het even niet weet
+                    Equipment item = inventory(i);
+                    //3) test hier of item.type GELIJK is aan EquipmentType.Sword
+                    if (item.type == EquipmentType.Sword)
+                    {
+                        e.Graphics.DrawImage(item.image, 0, 0);
+                    }
                 }
             }
-        }
 
-        internal void DoLogic(float frametime)
-        {
-            //gebruiken we nu even niet
+
+            {
+                //gebruiken we nu even niet
+            }
         }
     }
 }
