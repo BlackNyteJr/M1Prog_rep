@@ -58,7 +58,7 @@ namespace UpAndDown
         public void DoLogic(float frametime)
         {
 			//2) Zoek uit waarom de speler weer naar boven gaat, zet de reden hieronder achter de  //> neer
-			//>
+			//>De y-cordinaat verhoogt de positie van de speler dus die gaat omhoog
             player.y += 5;
         }
     }
