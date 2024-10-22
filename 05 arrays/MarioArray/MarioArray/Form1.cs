@@ -6,18 +6,22 @@ namespace MarioArray
         const int spriteSize = 16;
 		
 		//UITLEG: deze rectangle geeft aan welk stuk van het plaatje `sprites.png` getekend wordt, probeer het maar aan te passen!
-        Rectangle frame = new Rectangle(1, 9, spriteSize, spriteSize);
+        Rectangle frame = new Rectangle(1, 15, spriteSize, spriteSize);
 		
 		//UITLEG: elk punt is 1 plek waar we mario willen tekenen
         Point mario1 = new Point(50, 50);
-		
-		
-		//1) vervang de ??? door het type wat daar nodig is
+
+
+        //1) vervang de ??? door het type wat daar nodig is
         // > hint: kijk wat er in hoort te zitten, dat kan je zien!
-        ??? otherMarios = new otherMarios[] {
-            new Point(100,100)
+        Point[] otherMarios = new Point[] {
+            new Point(100,100),
 			//2) zet hier nog 4 andere marios neer
-			
+            new Point(150,150),
+            new Point(200,200),
+            new Point(250,250),
+            new Point(300,300),
+
         };
         public Form1()
         {
