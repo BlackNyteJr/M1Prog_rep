@@ -31,7 +31,7 @@ namespace MenuDraw
                 {
 
                     //2) haal hier het item op [i] op, zie MenuDraw als je het even niet weet
-                    Equipment item = inventory(i);
+                    Equipment item = inventory[i];
                     //3) test hier of item.type GELIJK is aan EquipmentType.Sword
                     if (item.type == EquipmentType.Sword)
                     {
